@@ -1,0 +1,34 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	
+		<!-- Sets initial viewport load and disables zooming  -->
+    	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    	<!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    	<meta name="apple-mobile-web-app-capable" content="yes">
+    	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>matty bird</title>
+		<script type="text/javascript" src="file:///android_asset/jquery.min.js"></script>
+		<script type="text/javascript" src="file:///android_asset/bird-game.js"></script>
+		<link type="text/css" href="file:///android_asset/bird-game.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="game" class="balance bdrBlack rel">
+			<div id="stage" class="abs">
+				<div id="ground" class="abs"></div>
+				<div id="bird" class="abs"></div>
+				<div id="overlay" class="abs">
+					<h1 id="title" class="mb10 txtC txtWhite">matty bird</h1>
+					<p id="instructions" class="dBlock mb10 txtC">
+						<span class="dBlock mb5">tap to start</span>
+						<span class="dBlock">tap to flap</span>
+					</p>
+					<h1 id="score" class="txtC txtWhite">0</h1>
+				</div>
+			</div>
+			<div id="screen" class="abs"></div>
+		</div>
+	</body>
+</html>

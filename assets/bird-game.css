@@ -1,0 +1,82 @@
+@charset 'utf-8';
+
+@font-face {
+	font-family:pressStartK;
+	src:url('/games/fonts/press-start-k.woff') format('woff'), url('/games/fonts/press-start-k.ttf') format('truetype');
+}
+
+body {margin:0;}
+
+h1, p {
+	margin:0;
+	border:0;
+	padding:0;
+	width:360px;
+	user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+
+h1 {font:14pt/14pt pressStartK;}
+p {font:10pt/10pt pressStartK;}
+
+.hide {display:none;}
+.dBlock {display:block;}
+.abs {position:absolute;}
+.rel {position:relative;}
+
+.balance {margin-right:auto; margin-left:auto;}
+.m10 {margin:10px;}
+.mb5 {margin-bottom:5px;}
+.mb10 {margin-bottom:10px;}
+
+.bdrBlack {border:1px solid #000;}
+
+.w360 {width:360px;}
+
+.txtC {text-align:center;}
+.txtWhite {color:#fff;}
+
+#game {
+	width:360px;
+	height:480px;
+}
+
+#stage {
+	width:360px;
+	height:480px;
+	background-color:#97b9e1;
+	overflow:hidden;
+}
+
+#ground {
+	top:400px;
+	width:360px;
+	height:80px;
+	background-color:#7cc576;
+}
+
+#overlay {
+	top:75px;
+}
+
+#screen {
+	display:none;
+	width:360px;
+	height:480px;
+	background-color:#fff;
+}
+
+#bird {
+	top:230px;
+	left:170px;
+	width:20px;
+	height:20px;
+	background-color:#fff799;
+}
+
+.pipe {
+	width:50px;
+	height:50px;  
+	background-color:#598527;
+}
